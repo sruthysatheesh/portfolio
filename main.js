@@ -206,7 +206,7 @@ function animateCounter(el, target, suffix = '', duration = 1200) {
 /* Trigger counters when reel section enters view */
 const reelSection = document.getElementById('reel');
 const statVals = document.querySelectorAll('.stat-val');
-const statsData = [8.75, 4, 2, 4];
+const statsData = [8.75, 8, 2, 4];
 const statSuffix = ['', '+', '', ''];
 let statsAnimated = false;
 
