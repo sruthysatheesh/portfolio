@@ -21,10 +21,10 @@
   --ivory-4: #4A4642;
 
   /* 10% — accent */
-  --accent: #FF6B35;
-  --accent-2: #FF8F65;
-  --accent-dim: rgba(255, 107, 53, 0.12);
-  --accent-glow: rgba(255, 107, 53, 0.35);
+  --accent: #fe82d7;
+  --accent-2: #fbb6e8;
+  --accent-dim: rgba(255, 53, 174, 0.12);
+  --accent-glow: rgba(255, 53, 127, 0.35);
 
   /* Typography */
   --font-display: 'Space Grotesk', system-ui, sans-serif;
@@ -147,7 +147,7 @@ nav.scrolled {
   padding: 1rem clamp(1.5rem, 5vw, 3.5rem);
   background: rgba(10, 10, 15, 0.85);
   backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(240, 237, 232, 0.06);
+  border-bottom: 1px solid rgba(240, 232, 232, 0.06);
 }
 
 .nav-logo {
@@ -409,7 +409,7 @@ nav.scrolled {
   left: 0;
   right: 0;
   overflow: hidden;
-  border-top: 1px solid rgba(240, 237, 232, 0.06);
+  border-top: 1px solid rgba(240, 232, 236, 0.06);
   padding: 0.9rem 0;
   opacity: 0;
   animation: riseIn 0.6s var(--ease) 1.1s forwards;
@@ -658,7 +658,7 @@ nav.scrolled {
 }
 
 .project-item:hover .project-visual {
-  border-color: rgba(255, 107, 53, 0.3);
+  border-color: rgba(255, 53, 124, 0.3);
 }
 
 .project-visual-inner {
@@ -690,18 +690,18 @@ nav.scrolled {
 
 .vis-cell {
   border-radius: 2px;
-  background: rgba(240, 237, 232, 0.04);
-  border: 1px solid rgba(240, 237, 232, 0.06);
+  background: rgba(240, 232, 235, 0.04);
+  border: 1px solid rgba(240, 232, 237, 0.06);
   transition: background 0.3s, border-color 0.3s;
 }
 
 .vis-cell.active {
-  background: rgba(255, 107, 53, 0.15);
-  border-color: rgba(255, 107, 53, 0.35);
+  background: rgba(255, 53, 137, 0.15);
+  border-color: rgba(255, 53, 134, 0.35);
 }
 
 .vis-cell.pulse {
-  background: rgba(255, 107, 53, 0.35);
+  background: rgba(255, 53, 164, 0.35);
   border-color: var(--accent);
   animation: cellPulse 2s ease-in-out infinite;
 }
@@ -710,11 +710,11 @@ nav.scrolled {
 
   0%,
   100% {
-    background: rgba(255, 107, 53, 0.35);
+    background: rgba(255, 53, 215, 0.35);
   }
 
   50% {
-    background: rgba(255, 107, 53, 0.6);
+    background: rgba(255, 53, 110, 0.6);
   }
 }
 
@@ -728,7 +728,7 @@ nav.scrolled {
 .chain-block {
   width: 44px;
   height: 36px;
-  border: 1px solid rgba(240, 237, 232, 0.12);
+  border: 1px solid rgba(240, 232, 236, 0.12);
   border-radius: 3px;
   display: flex;
   align-items: center;
@@ -749,7 +749,7 @@ nav.scrolled {
 .chain-line {
   width: 18px;
   height: 1px;
-  background: rgba(240, 237, 232, 0.12);
+  background: rgba(240, 232, 237, 0.12);
 }
 
 /* Bars visual */
@@ -763,7 +763,7 @@ nav.scrolled {
 .bar {
   width: 16px;
   height: var(--h);
-  background: linear-gradient(to top, var(--accent), rgba(255, 107, 53, 0.3));
+  background: linear-gradient(to top, var(--accent), rgba(255, 53, 178, 0.3));
   border-radius: 2px 2px 0 0;
 }
 
@@ -787,21 +787,21 @@ nav.scrolled {
 .r1 {
   width: 80px;
   height: 80px;
-  border-color: rgba(255, 107, 53, 0.5);
+  border-color: rgba(255, 53, 137, 0.5);
   animation-delay: 0s;
 }
 
 .r2 {
   width: 56px;
   height: 56px;
-  border-color: rgba(255, 107, 53, 0.35);
+  border-color: rgba(255, 53, 120, 0.35);
   animation-delay: 0.4s;
 }
 
 .r3 {
   width: 32px;
   height: 32px;
-  border-color: rgba(255, 107, 53, 0.6);
+  border-color: rgba(255, 53, 171, 0.6);
   border-style: solid;
   background: var(--accent-dim);
   animation-delay: 0.8s;
@@ -922,7 +922,7 @@ nav.scrolled {
   align-items: center;
   gap: 0;
   padding: 2rem clamp(1.5rem, 6vw, 4rem);
-  border-top: 1px solid rgba(240, 237, 232, 0.08);
+  border-top: 1px solid rgba(240, 232, 237, 0.08);
 }
 
 .reel-stat {
@@ -950,7 +950,7 @@ nav.scrolled {
 .reel-stat-div {
   width: 1px;
   height: 40px;
-  background: rgba(240, 237, 232, 0.08);
+  background: rgba(240, 232, 236, 0.08);
 }
 
 /* ══════════════════════════════════════════════════════
@@ -999,7 +999,7 @@ nav.scrolled {
   grid-template-columns: 64px 1fr;
   gap: 1.5rem;
   padding: 1.8rem 0;
-  border-bottom: 1px solid rgba(240, 237, 232, 0.06);
+  border-bottom: 1px solid rgba(240, 232, 235, 0.06);
   position: relative;
 }
 
@@ -1010,7 +1010,7 @@ nav.scrolled {
   top: 0;
   bottom: 0;
   width: 1px;
-  background: rgba(240, 237, 232, 0.06);
+  background: rgba(240, 232, 236, 0.06);
 }
 
 .timeline-item:first-child::before {
@@ -1055,8 +1055,8 @@ nav.scrolled {
 
 .skill-group {
   padding: 2.5rem 2rem 2.5rem 0;
-  border-right: 1px solid rgba(240, 237, 232, 0.06);
-  border-bottom: 1px solid rgba(240, 237, 232, 0.06);
+  border-right: 1px solid rgba(240, 232, 236, 0.06);
+  border-bottom: 1px solid rgba(240, 232, 237, 0.06);
 }
 
 .skill-group:nth-child(3n) {
@@ -1086,34 +1086,34 @@ nav.scrolled {
   font-size: 0.78rem;
   font-weight: 400;
   color: var(--ivory-2);
-  background: rgba(240, 237, 232, 0.05);
-  border: 1px solid rgba(240, 237, 232, 0.08);
+  background: rgba(240, 232, 235, 0.05);
+  border: 1px solid rgba(240, 232, 236, 0.08);
   padding: 0.35rem 0.85rem;
   border-radius: 100px;
   transition: background 0.25s, border-color 0.25s, color 0.25s;
 }
 
 .pill:hover {
-  background: rgba(240, 237, 232, 0.1);
-  border-color: rgba(240, 237, 232, 0.2);
+  background: rgba(240, 232, 235, 0.1);
+  border-color: rgba(240, 232, 237, 0.2);
   color: var(--ivory);
 }
 
 .pill.accent {
   color: var(--accent);
   background: var(--accent-dim);
-  border-color: rgba(255, 107, 53, 0.2);
+  border-color: rgba(255, 53, 151, 0.2);
 }
 
 .pill.accent:hover {
-  background: rgba(255, 107, 53, 0.2);
-  border-color: rgba(255, 107, 53, 0.4);
+  background: rgba(255, 53, 157, 0.2);
+  border-color: rgba(255, 53, 141, 0.4);
 }
 
 /* Certs */
 .certs-row {
   padding-top: 3rem;
-  border-top: 1px solid rgba(240, 237, 232, 0.07);
+  border-top: 1px solid rgba(240, 232, 237, 0.07);
 }
 
 .certs-title {
@@ -1167,7 +1167,7 @@ nav.scrolled {
 }
 
 .contact-inner {
-  border-top: 1px solid rgba(240, 237, 232, 0.07);
+  border-top: 1px solid rgba(240, 232, 237, 0.07);
   padding-top: 4rem;
   display: flex;
   flex-direction: column;
@@ -1250,7 +1250,7 @@ nav.scrolled {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem clamp(1.5rem, 6vw, 4rem);
-  border-top: 1px solid rgba(240, 237, 232, 0.06);
+  border-top: 1px solid rgba(240, 232, 237, 0.06);
   font-size: 0.72rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
